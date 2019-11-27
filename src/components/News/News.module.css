@@ -1,0 +1,12 @@
+.news{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.left_side_news{
+    grid-column: 1;
+}
+
+.right_side_news{
+    grid-column: 2;
+}

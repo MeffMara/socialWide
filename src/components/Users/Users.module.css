@@ -1,0 +1,78 @@
+img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+.isFetching{
+
+    width: 200px;
+    object-fit: none;
+
+    border-radius: 0   ;
+}
+.itemFollowers{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    width: 75%;
+    justify-self: center;
+    margin: 20px;
+    border: 2px solid lightslategray;
+    border-radius: 10% 4% 10%;
+    box-shadow: 3px 3px 9px #071739;
+}
+
+.selectedPage{
+    font-weight: bold;
+}
+
+.followerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: center;
+    padding: 15px 0;
+    margin-left: 20px;
+    }
+
+button{
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.followerInformation{
+    display: grid;
+    grid-template-areas:
+    "name locationCountry"
+    "status locationCity";
+}
+
+.name{
+    grid-area: name;
+    align-self: center;
+    justify-self: center;
+}
+.status{
+    grid-area:status ;
+    align-self: center;
+    margin-left: 60px;
+
+}
+.locationCity{
+    grid-area: locationCity;
+    align-self: flex-start;
+    justify-self: center;
+
+
+}
+.locationCountry{
+    grid-area: locationCountry;
+    align-self: center;
+    justify-self: center;
+
+
+}

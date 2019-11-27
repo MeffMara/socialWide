@@ -1,0 +1,38 @@
+.dialogsWrapper{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-template-rows: 55px 1fr;
+}
+
+.dialogsWrapper>span{
+    grid-column: 1/span 2;
+    grid-row: 1;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    font-style: italic;
+    color: #000;
+    justify-self: center;
+    align-self: center;
+}
+.dialogs{
+    grid-row: 2;
+    position: relative;
+}
+.dialog{
+    padding: 10px;
+}
+
+.dialog a{
+    text-transform: none;
+
+}
+
+
+.messages{
+    grid-row: 2;
+    border: 1px solid #efefef;
+    box-shadow: 2px 1px 6px #81a0e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

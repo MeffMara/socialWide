@@ -1,0 +1,11 @@
+.messages{
+    grid-row: 2;
+    border: 1px solid #efefef;
+    box-shadow: 2px 1px 6px #81a0e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.message{
+    padding: 10px;
+}

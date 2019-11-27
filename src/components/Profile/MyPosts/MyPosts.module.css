@@ -1,0 +1,9 @@
+.myPosts{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-gap: 30px;
+}
+
+.form{
+    border: 1px dot-dash gray;
+}

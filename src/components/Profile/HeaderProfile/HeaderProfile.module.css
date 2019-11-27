@@ -1,0 +1,36 @@
+.topContent{
+    margin: 0;
+}
+
+
+.contact>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #efefef;
+    box-shadow: -2px 2px 10px #ebebeb;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact {
+    display: grid;
+    grid-template-areas:
+            "image information"
+}
+
+img {
+    grid-area: image;
+}
+
+.information {
+    grid-area: information;
+}
+
+.topImage img {
+    width: max-content;
+    height: 240px;
+}

@@ -1,0 +1,15 @@
+.sendMessages{
+    grid-column: 2;
+}
+
+
+
+label{
+    display: grid;
+    padding: 60px 0;
+
+}
+
+.form{
+    border: 1px dot-dash gray;
+}

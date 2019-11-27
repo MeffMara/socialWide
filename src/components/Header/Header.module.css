@@ -1,0 +1,9 @@
+.header {
+  grid-area: header;
+  justify-self: center;
+}
+
+.header img {
+  width: auto;
+  height: 67px;
+}
